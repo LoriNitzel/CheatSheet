@@ -17,14 +17,14 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 #### Repo History
 `$ git log` - gives a list of the commits
 
-`$ git log --oneline --decorate --color --graph --all` - this will put all commits on a single, the graph flag will draw a text based graph of the flags on the left side of the commits--decorates adds the names of branches or tags of the commits shown, color puts the name of branches or tags in different colors. 
+`$ git log --oneline --decorate --color --graph --all` - this will put all commits on a single, the graph flag will draw a text based graph of the flags on the left side of the commits--decorates adds the names of branches or tags of the commits shown, color puts the name of branches or tags in different colors.
 
-`$ git log -p [filename]` __Fill Me Out__
+`$ git log -p [filename]` show patch introduced at each commit
 
 #### Stage files to commit
-`$ git add <filename>` - __Fill Me Out__
+`$ git add <filename>` - stages specific files for commit
 
-`$ git add -A` - __Fill Me Out__
+`$ git add -A` - stages all files for commit
 
 #### Commit changes in staged files
 `$ git commit -m "<commit message>"` - __Fill Me Out__
