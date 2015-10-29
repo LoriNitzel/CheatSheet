@@ -38,4 +38,4 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 
 #### Merging
 
-`$ git merge <branch name>` - __Fill Me Out__
+`$ git merge <branch name>` - Merge the change sinto the current branch from the changes of a remote repository. This act as a combinations of git commands by doing a git fetch followed by a git merge. 
