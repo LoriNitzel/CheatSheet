@@ -27,14 +27,14 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git add -A` - stages all files for commit
 
 #### Commit changes in staged files
-`$ git commit -m "<commit message>"` - __Fill Me Out__
+`$ git commit -m "<commit message>"` - saves staged file changes and adds message describing those changes
 
 #### Branching
-`$ git branch <branch name>` - __Fill Me Out__
+`$ git branch <branch name>` - creates new branch and names it
 
-`$ git branch` - __Fill Me Out__
+`$ git branch` - lists all of the branches in your repo
 
-`$ git checkout <branch name>` - __Fill Me Out__
+`$ git checkout <branch name>` - checks out specified branch, making it the current branch and updating the working directory to match
 
 #### Merging
 
