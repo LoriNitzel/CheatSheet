@@ -38,4 +38,13 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 
 #### Merging
 
-`$ git merge <branch name>` - Merge the change sinto the current branch from the changes of a remote repository. This act as a combinations of git commands by doing a git fetch followed by a git merge. 
+`$ git merge <branch name>` - Merge the change sinto the current branch from the changes of a remote repository. This act as a combinations of git commands by doing a git fetch followed by a git merge.
+
+#### Aliases
+
+Git doesn’t automatically infer your command if you type it in partially. If you don’t want to type the entire text of each of the Git commands, you can easily set up an alias for each command using git config. Here are a couple of examples you may want to set up:
+
+$ git config --global alias.co checkout
+$ git config --global alias.br branch
+$ git config --global alias.ci commit
+$ git config --global alias.st status
